@@ -9,6 +9,21 @@ body{
     color:#012A1A;
 }
 
+.container-fluid{
+    background-color: #ffffff;
+}
+
+.active{
+    color: #8E1F4C !important;
+    font-size: 45px !important;
+}
+
+.nav-item{
+    align-self: center;
+}
+
+
+/*
 nav{
     display: grid;
     width: 100%;
@@ -20,7 +35,8 @@ nav{
     justify-content: center;
     justify-items: center;
     align-items: center;
-}
+}*/
+
 
 .logo_princ{
 height: 100%;
