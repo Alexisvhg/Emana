@@ -124,5 +124,22 @@ div label {
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 25px;
 }
+/*
+img{
+    width:100% !important;
+}
 
+.navbar-brand{
+    width: 70% !important;
+}
+*/
+@media only screen and (max-width: 900px) {
+    .navbar-brand{
+        width: 70% !important;
+    }   
+    img{
+        width:100% !important;
+    }
+    
+}
 
