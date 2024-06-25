@@ -123,6 +123,10 @@ font-size: 25px;
 .logo-footer{
     float: right !important;
 }
+.fa-brands{
+    color: #DED4C8;
+}
+
 #container_footer{
     font-size: 50px !important;
     margin-bottom: 5px !important;
@@ -133,6 +137,30 @@ font-size: 25px;
 .seguinos-footer{
     font-size: 40px !important;
 }
+
+#fila_video{
+    justify-content: center !important;
+}
+
+.logo_card{
+    width: auto !important;
+}
+
+#boton_premium{
+    background-color: silver !important;
+    border: silver !important;
+}
+
+#boton_gold{
+    background-color: gold !important;
+    border: gold !important;
+}
+
+#boton_std{
+    background-color: green !important;
+    border: green !important;
+}
+
 
 @media only screen and (max-width: 900px) {
     .navbar-brand{
