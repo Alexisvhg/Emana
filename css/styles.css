@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #DED4C8;
+  color: #012A1A;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #8E1F4C;
+}
+
+h2, p {
+  color: #012A1A;
+}
+
+.somos {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+.row {
+  align-items: center !important;
+}
+
+/* Estilos de elementos de diferentes pages*/
+/* INDEX */
+#fila_video {
+  justify-content: center !important;
+}
+
+/* Nosotros */
+.ambas_imagenes {
+  background-color: white;
+}
+
+/* Clientes */
+.logo_card {
+  width: auto !important;
+}
+
+#mapa_clientes {
+  width: 100% !important;
+  height: 600px !important;
+}
+
+/* Servicios */
+#boton_premium {
+  background-color: silver !important;
+  border: silver !important;
+}
+
+#boton_gold {
+  background-color: gold !important;
+  border: gold !important;
+}
+
+#boton_std {
+  background-color: green !important;
+  border: green !important;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+}
+
+.active {
+  color: #8E1F4C !important;
+  font-size: 45px;
+}
+
+.nav-item {
+  align-self: center;
+}
+
+.navbar-toggler-icon {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  background-color: #8E1F4C;
+  color: #7a123b !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.logo_princ {
+  height: 100%;
+  grid-area: logo;
+  justify-content: center;
+}
+
+.link_nosotros {
+  height: 100%;
+  grid-area: nosotros;
+}
+
+.link_servicios {
+  height: 100%;
+  grid-area: servicios;
+}
+
+.link_clientes {
+  height: 100%;
+  grid-area: clientes;
+}
+
+.link_contacto {
+  height: 100%;
+  grid-area: contacto;
+}
+
+.link_arepas {
+  width: 100%;
+  height: 100%;
+  max-height: 136px;
+  grid-area: noche;
+  align-self: start;
+}
+
+header {
+  background-color: white;
+}
+
+nav a {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  color: #ddb9a3;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.link_arepas {
+  font-size: 5px;
+}
+
+.logo-footer {
+  float: right;
+}
+
+.fa-brands {
+  color: #DED4C8;
+}
+
+#container_footer {
+  font-size: 50px;
+  margin-bottom: 5px;
+  background-color: #012A1A;
+  color: #ffffff;
+}
+
+.seguinos-footer {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar-brand {
+    width: 70%;
+  }
+  img {
+    width: 100%;
+  }
+  .seguinos-footer {
+    font-size: 15px;
+  }
+  #container_footer {
+    font-size: 30px;
+  }
+  #mapa_clientes {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

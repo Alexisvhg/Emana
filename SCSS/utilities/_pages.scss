@@ -1,0 +1,39 @@
+/* Estilos de elementos de diferentes pages*/
+
+
+/* INDEX */
+#fila_video {
+    justify-content: center !important;
+}
+
+/* Nosotros */
+ .ambas_imagenes{
+    background-color: white;
+}
+
+/* Clientes */
+.logo_card {
+    width: auto !important;
+}
+
+#mapa_clientes {
+    width: 100% !important;
+    height: 600px !important;
+}
+
+
+/* Servicios */
+#boton_premium {
+    background-color: silver !important;
+    border: silver !important;
+}
+
+#boton_gold {
+    background-color: gold !important;
+    border: gold !important;
+}
+
+#boton_std {
+    background-color: green !important;
+    border: green !important;
+}
