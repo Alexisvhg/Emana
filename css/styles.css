@@ -3,6 +3,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #DED4C8;
   color: #012A1A;
+  margin-left: 5px;
 }
 
 a {
@@ -27,13 +28,25 @@ h2, p {
 
 /* Estilos de elementos de diferentes pages*/
 /* INDEX */
+.texto_video {
+  color: #8E1F4C;
+  font-size: 25px;
+}
+
 #fila_video {
   justify-content: center !important;
 }
 
 /* Nosotros */
 .ambas_imagenes {
+  margin-top: 5px;
+  margin-bottom: 5px;
   background-color: white;
+}
+
+.d-block {
+  width: 80% !important;
+  height: 80% !important;
 }
 
 /* Clientes */
@@ -73,6 +86,10 @@ h2, p {
 
 .nav-item {
   align-self: center;
+}
+
+.primera_imagen {
+  width: 80%;
 }
 
 .navbar-toggler-icon {
