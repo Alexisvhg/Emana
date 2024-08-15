@@ -20,6 +20,7 @@ h2, p {
 
 .somos {
   font-size: calc(1.325rem + 0.9vw);
+  color: #012A1A;
 }
 
 .row {
@@ -44,6 +45,12 @@ h2, p {
   background-color: white;
 }
 
+.objetivo {
+  color: #8E1F4C;
+  background-color: white;
+  font-size: 20px;
+}
+
 .d-block {
   width: 80%;
   height: 80%;
@@ -60,6 +67,11 @@ h2, p {
 }
 
 /* Servicios */
+.serv_ofre {
+  color: #8E1F4C;
+  font-size: 30px;
+}
+
 #boton_premium {
   background-color: silver;
   border: silver;
