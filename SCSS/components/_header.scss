@@ -2,10 +2,13 @@
     background-color: #ffffff;
 }
 
-.active {
-    color: #8E1F4C !important;
-    font-size: 45px;
-}
+.nav-link {
+    &.active {
+        color: #8E1F4C;
+        font-size: 45px;
+    }
+  }
+
 
 .nav-item {
     align-self: center;
@@ -13,7 +16,6 @@
 
 .primera_imagen{
     width: 80%;
-
 }
 
 .navbar-toggler-icon {
@@ -22,7 +24,7 @@
 
 .navbar-toggler {
     background-color: #8E1F4C;
-    color: #7a123b !important;
+    color: #7a123b;
 
     &:focus {
         box-shadow: none;

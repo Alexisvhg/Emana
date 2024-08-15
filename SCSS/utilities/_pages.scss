@@ -8,7 +8,7 @@
 }
 
 #fila_video {
-    justify-content: center !important;
+    justify-content: center;
 }
 
 /* Nosotros */
@@ -19,33 +19,33 @@
 }
 
 .d-block{
-width: 80% !important;
-height: 80% !important;
+width: 80%;
+height: 80%;
 }
 
 /* Clientes */
 .logo_card {
-    width: auto !important;
+    width: auto;
 }
 
 #mapa_clientes {
-    width: 100% !important;
-    height: 600px !important;
+    width: 100%;
+    height: 600px;
 }
 
 
 /* Servicios */
 #boton_premium {
-    background-color: silver !important;
-    border: silver !important;
+    background-color: silver;
+    border: silver;
 }
 
 #boton_gold {
-    background-color: gold !important;
-    border: gold !important;
+    background-color: gold;
+    border: gold;
 }
 
 #boton_std {
-    background-color: green !important;
-    border: green !important;
+    background-color: green;
+    border: green;
 }

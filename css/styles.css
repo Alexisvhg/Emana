@@ -23,7 +23,7 @@ h2, p {
 }
 
 .row {
-  align-items: center !important;
+  align-items: center;
 }
 
 /* Estilos de elementos de diferentes pages*/
@@ -34,7 +34,7 @@ h2, p {
 }
 
 #fila_video {
-  justify-content: center !important;
+  justify-content: center;
 }
 
 /* Nosotros */
@@ -45,42 +45,42 @@ h2, p {
 }
 
 .d-block {
-  width: 80% !important;
-  height: 80% !important;
+  width: 80%;
+  height: 80%;
 }
 
 /* Clientes */
 .logo_card {
-  width: auto !important;
+  width: auto;
 }
 
 #mapa_clientes {
-  width: 100% !important;
-  height: 600px !important;
+  width: 100%;
+  height: 600px;
 }
 
 /* Servicios */
 #boton_premium {
-  background-color: silver !important;
-  border: silver !important;
+  background-color: silver;
+  border: silver;
 }
 
 #boton_gold {
-  background-color: gold !important;
-  border: gold !important;
+  background-color: gold;
+  border: gold;
 }
 
 #boton_std {
-  background-color: green !important;
-  border: green !important;
+  background-color: green;
+  border: green;
 }
 
 .container-fluid {
   background-color: #ffffff;
 }
 
-.active {
-  color: #8E1F4C !important;
+.nav-link.active {
+  color: #8E1F4C;
   font-size: 45px;
 }
 
@@ -98,7 +98,7 @@ h2, p {
 
 .navbar-toggler {
   background-color: #8E1F4C;
-  color: #7a123b !important;
+  color: #7a123b;
 }
 .navbar-toggler:focus {
   box-shadow: none;
@@ -173,6 +173,7 @@ nav a {
 
 .seguinos-footer {
   font-size: 40px;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 900px) {
